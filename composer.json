@@ -1,0 +1,21 @@
+{
+    "name": "boleto-bb/consulta-boletos.php",
+    "description": "API para consultar boletos do Banco do Brasil",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BoletoBB\\API\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filipe A.S",
+            "email": "felipealvessampaio@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
