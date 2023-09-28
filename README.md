@@ -33,6 +33,10 @@ try {
 } catch () {}
 ```
 
+# Funções Implementadas
+- getBoleto(:id): Busca um boleto específico e mostra detalhes sobre ele.
+- listAllBoletos($params): Busca uma lista de boletos a partir dos parâmetros informados. Os parâmetros você pode ver mais detalhes observando os parâmetros de entrada da classe ParamsListAllBoletos(). **OBS: esse método é recursivo, onde é puxado todos os boletos usando o parâmetro indice da API do banco do brasil.**
+
 # Observações
 - Atente-se a consultar a documentação da API do Banco do Brasil e pegar todas as variáveis de autenticação (essas variáveis você vai achar dentro da sua conta do Banco do Brasil).
 
