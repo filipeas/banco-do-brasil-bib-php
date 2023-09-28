@@ -35,3 +35,6 @@ try {
 
 # Observações
 - Atente-se a consultar a documentação da API do Banco do Brasil e pegar todas as variáveis de autenticação (essas variáveis você vai achar dentro da sua conta do Banco do Brasil).
+
+# Dúvidas ou Sugestões?
+Abra uma issue em caso de dúvidas ou sugestões de melhorias!
